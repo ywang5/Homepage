@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Yikai Wang</title>
+<base target="_blank">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='FirstCSS.css')}}">
+</head>
+
+<body>
+
+<header>
+
+<img src="{{url_for('static', filename='1661701_818332711514211_2061054500_n.jpg')}}" alt="My Picture" width="200" height="190" id="myself"> 
+
+<div id="text">
+	<h1>Yikai Wang</h1>
+	<p><b>Contact:</b><br>
+		cell: 610-241-2219<br>
+		email: yikai.wang.1993@gmail.com<br>
+    </p>
+</div>
+
+<div id="nav">
+<b><a href="{{url_for('static', filename='resume tech.pdf')}}" class="nav">Resume</a>
+<a href="{{url_for('static', filename='Yikai_Wang_transcript.pdf')}}" class="nav">Transcript</a>
+<a href="http://www.swarthmore.edu" class="nav">Current School</a>
+<a href="http://www.yorn.com" class="nav">Current Employment</a>
+</b></div>
+
+</header>
+
+<article>
+
+<h1 class="content">Introduction</h1>
+<p class="content">Hello everyone. I am Yikai Wang, and I am a student in Swarthmore College. I study Computer Science and will be graduating in 2017. Welcome to my home page.</p>
+
+<h1 class="content">Social Media</h1>
+<p><a class="content" href="https://www.facebook.com/yikai.wang.545?ref=tn_tnmn">Facebook</a></p>
+<p><a class="content" href="http://www.renren.com/281066581/profile">RenRen</a></p>
+<p><a class="content" href="http://www.weibo.com/greatony1993/profile?rightmod=1&wvr=5&mod=personinfo">Sina Weibo</a></p>
+
+<h1 class="content">Send me an E-mail!</h1>
+<form class="content" action="MAILTO:yikai.wang.1993@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</article>
+
+</body>
+
+</html>
